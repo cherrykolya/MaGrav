@@ -4,3 +4,4 @@ import test
 test.ololo()
 print("kek")
 print(2+2)
+print(5+2)
