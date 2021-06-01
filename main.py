@@ -2,6 +2,7 @@ import sys
 from PyQt5 import QtWidgets, uic
 from mydesign import Ui_MainWindow
 
+
 class Window(QtWidgets.QMainWindow):
     def __init__(self):
         super(Window, self).__init__()
@@ -13,3 +14,4 @@ if __name__ == '__main__':
     application = Window()
     application.show()
     sys.exit(app.exec())
+
