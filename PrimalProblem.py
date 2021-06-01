@@ -20,3 +20,4 @@ class PrimalProblem:
             result += A_v * view_point + B_v -view_point.conjugate() * ln
         
         return result * self.Model
+
